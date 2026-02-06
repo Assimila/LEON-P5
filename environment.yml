@@ -1,0 +1,16 @@
+name: bii
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - rasterio[version='>=1.3']
+  - ipykernel
+  - gdal
+  - libnetcdf
+  - netcdf4
+  - geopandas
+  - rioxarray
+  - dask
+  - odc-geo
+prefix: /home/georg/python/miniconda3/envs/bii
