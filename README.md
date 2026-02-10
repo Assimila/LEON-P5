@@ -1,4 +1,8 @@
-# Land‑Use Intensity Data Pipeline
+# LEON-P5
+
+LEON - Pilot 5 Developing biodiversity metrics for use in natural capital accounting (Biodiversity in natural capital accounting and green net national income)
+
+# Land‑Use Intensity and BII Data Pipeline
 
 This repository contains scripts and notebooks for downloading, preprocessing, and classifying land-use related datasets to generate the Biodiversity Intactness Index (BII). The workflow integrates data from Google Earth Engine (GEE), the Copernicus Land Monitoring Service (CLMS), and the Global Human Settlement Layer (GHSL) to produce covariates and land-use intensity (LUI) classes. The PREDICTS database is then modelled and combined with the LUI outputs to generate the BII. Together, these components form a reproducible pipeline for deriving consistent, spatially explicit LUI and BII layers.
 
