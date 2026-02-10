@@ -1,6 +1,6 @@
 # Land‑Use Intensity Data Pipeline
 
-This repository contains scripts and notebooks for downloading, preprocessing, and classifying land‑use–related datasets. The workflow integrates data from Google Earth Engine (GEE), the Copernicus Land Monitoring Service (CLMS), and the Global Human Settlement Layer (GHSL) to produce covariates and land‑use intensity classes for downstream biodiversity analyses, including the Biodiversity Intactness Index (BII).
+This repository contains scripts and notebooks for downloading, preprocessing, and classifying land-use related datasets to generate the Biodiversity Intactness Index (BII). The workflow integrates data from Google Earth Engine (GEE), the Copernicus Land Monitoring Service (CLMS), and the Global Human Settlement Layer (GHSL) to produce covariates and land-use intensity (LUI) classes. The PREDICTS database is then modelled and combined with the LUI outputs to generate the BII. Together, these components form a reproducible pipeline for deriving consistent, spatially explicit LUI and BII layers.
 
 ---
 
