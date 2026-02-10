@@ -15,7 +15,8 @@ This repository contains scripts and notebooks for downloading, preprocessing, a
 ├── 1_prep_raw_datasets
 ├── 2_prep_covariates
 ├── 3_class_land_use_intensity
-└── 4_calc_bii
+├── 4_calc_bii_predicts_world
+└── 4_calc_bii_predicts_europe
 
 ---
 
@@ -117,11 +118,18 @@ Jupyter notebook(s) for classifying land‑use intensity into **three classes** 
 
 ## 4 — Biodiversity Intactness Index (BII) Calculation (R)
 
-- **`4_calc_bii/`**
+- **`4_calc_bii_predicts_world/`**
 
 R script(s) for calculating the **Biodiversity Intactness Index (BII)** using:
-- The PREDICTS database
+- The PREDICTS global database
 - Generated land‑use and land‑use intensity layers
+
+- **`4_calc_bii_predicts_europe/`**
+
+R script(s) for calculating the **Biodiversity Intactness Index (BII)** using:
+- The PREDICTS european database
+- Generated land‑use and land‑use intensity layers
+
 
 This step is implemented entirely in **R**.
 
