@@ -13,12 +13,12 @@ This repository contains scripts and notebooks for downloading, preprocessing, a
 ├── 0_download_viirs_gee.js
 ├── 0_download_natural_forest_gee.js
 ├── 0_download_modis-npp_gee.js
-├── 0_download_clms/
-├── 1_prep_raw_datasets/
-├── 2_prep_covariates/
-├── 3_class_land_use_intensity/
-├── 4_calc_bii_predicts_world/
-└── 4_calc_bii_predicts_europe/
+├── 0_download_clms.ipynb
+├── 1_prep_raw_datasets.ipynb
+├── 2_prep_covariates.ipynb
+├── 3_class_land_use_intensity.ipynb
+├── 4_calc_bii_predicts_world.R
+└── 4_calc_bii_predicts_europe.R
 ```
 ---
 
