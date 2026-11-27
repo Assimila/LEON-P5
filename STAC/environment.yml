@@ -1,0 +1,13 @@
+name: LEON-P5-STAC
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.15
+  - pystac
+  - jsonschema
+  - rio-stac
+  - rio-cogeo
+  - rioxarray
+  - s3cmd
+  - matplotlib-base  # non-interactive
